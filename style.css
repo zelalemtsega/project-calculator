@@ -1,0 +1,87 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c4c4e0;
+}
+
+/* Calculator Container */
+#calculator {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Display Section */
+#display {
+    background-color: #222831;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #393e46;
+    height: 80px;
+    flex: 1 0 100%;
+}
+
+/* Button Grid */
+button {
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    flex: 1 0 25%;
+}
+
+/* Number Buttons */
+.number {
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+.number:hover {
+    background-color: #d6d6d6;
+}
+
+/* Operator Buttons */
+.operator {
+    background-color: #00adb5;
+    color: #ffffff;
+}
+
+.operator:hover {
+    background-color: #008d92;
+}
+
+/* Equals Button */
+.equals {
+    background-color: #393e46;
+    color: #ffffff;
+}
+
+.equals:hover {
+    background-color: #222831;
+}
+
+/* Clear Button */
+.clear {
+    background-color: #f05454;
+    color: #ffffff;
+    flex: 1 0 50%;
+}
+
+.clear:hover {
+    background-color: #c44545;
+}
+
+button {
+    box-sizing: border-box;
+}
